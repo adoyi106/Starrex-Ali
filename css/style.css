@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway');
+
+/* global styles ...............................*/
+html, body {
+    margin: 0;
+    border: 0;
+    width: 100%;
+    height: 100%;
+  }
+  h1 {
+    text-align: center;
+    color: white;
+    font-size: 200%;
+    font-family: 'Playfair Display', serif;
+    font-family: 700;
+  }
+
+  h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 200%;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: underline;
+    color: darkgrey;
+  }
+  p {
+    font-family: 'Raleway', serif;
+    font-size: 140%;
+    line-height: 180%;
+    text-align: justify;
+    font-weight: 300;
+    color: darkgrey;
+  }
+  
+  img {
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+  }
+   /* Intro .............................*/
+  .intro {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url(../images/rejoice.jpg) no-repeat 80% 25%;
+    background-size: cover;
+  }
+  .content p {
+    text-align: center;
+    color: white;
+    line-height: 1.7;
+  }
+  h1, .content p {
+    margin: 0%;
+  }
+  /*........ start nav ...............................*/
+   nav {
+    float: left;
+    height: 50px;
+  }
+  nav ul {
+    list-style: none;
+    float: left;
+  }
+  nav ul li {
+    font-family: 'Raleway' sans-serif;
+    font-size: 120%;
+  }
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  nav ul, nav:active ul {
+    display: none; 
+    left: 45px;
+    top: 60px;
+    padding: 8px 0;
+    width: 20%;
+    z-index: 1000;
+  }
+
+  nav li {
+    width: 100%;
+    padding: 8px 0 10px 7px;
+    margin: 0;
+  }
+  nav:hover ul {
+    display: block;
+    position: absolute;
+  }
+  #menue-icon {
+    width: 30px;
+    height: 26px;
+    background: url(../images/icon.png) center;
+    display: inline-block;
+    margin: 25px 0 0 25px;
+  } 
+
+  /*..................About me .......................*/
+  .left-col {
+    width: 60%;
+    float: left;
+    margin: 4% 0 4% 4%;
+  }
+  .side-bar {
+    width: 26%;
+    float: left;
+    margin: 4%;
+  }
+  
+  /*..................portfolio .......................*/
+  .one-third-port {
+    width: 29.33%;
+    padding: 2%;
+    float: left;
+  }
+  .one-third-port:hover {
+    opacity: .6;
+  }
+   /*..................services .......................*/
+  .contact p {
+    text-align: center;
+    letter-spacing: 5;
+  }
+  .clearfix {
+    clear: both;
+    height: 3%;
+  }
+  /*.break {
+    display: none;
+  }
+   /*..................Team .......................*/
+    .one-team {
+    width: 40%;
+    padding: 2%;
+    float: left;
+    }
+  /* parallax styles ...............................*/
+  .parallax {
+    background: url(../images/my\ guy.jpg) repeat fixed 100%;
+    opacity: .5;
+  }
+  .parallax-inner {
+    padding-top: 17%;
+  }
+  .social {
+    list-style: none;
+    text-align: center;
+  }
+  .social li {
+    display: inline;
+    
+  }
+  .social i {
+    font-size: 227%;
+    margin: 1% 5% 7% 4%;
+    color: black;
+    text-decoration: none;
+  }
+  .social i:hover {
+    color: black;
+  }
+  footer.second {
+    background-color: black;
+  }
+  footer.second p {
+    text-align: center;
+    padding: 5%;
+    color: white;
+  }
